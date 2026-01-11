@@ -422,7 +422,6 @@ export default function LandingPage() {
             </div>
 
             <div className="relative">
-              {/* Using Unsplash image - Replace with your own image path when ready */}
               <img
                 src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=600&h=400&fit=crop"
                 alt="Workout"
@@ -554,7 +553,7 @@ export default function LandingPage() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-5xl font-bold text-white mb-6">Ready to Transform Your Fitness?</h2>
           <p className="text-xl text-blue-100 mb-8">
-            Join 50,000+ users crushing their goals. Start tracking today—it's free!
+            Join 50,000+ users crushing their goals. Start tracking today—it&apos;s free!
           </p>
           <button
             onClick={() => setShowSignup(true)}
